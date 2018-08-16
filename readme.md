@@ -1,0 +1,28 @@
+
+This application is a demonstration prototype just to show how to use PassportJS and Passport GitHub Strategy. This prototype is the first level that implements user authentication with Social Login (GitHub).
+
+# Getting started
+
+* Download this prototype
+
+```console
+$ git clone --single-branch -b Prototype-Level1 https://github.com/0xdbe/Prototype_PassportJS.git
+```
+
+* Install required dependencies
+
+```console
+$ npm install
+```
+
+* Register your application on [GitHub (Developers Settings)](https://github.com/settings/developers) with :
+  - Homepage URL: http://127.0.0.1:3000
+  - Authorization callback URL : http://127.0.0.1:3000/signin/github/callback
+
+* Run this prototype
+
+```console
+$ NODE_ENV=production PORT=3000 HOST=127.0.0.1 CLIENT_ID=xxxxxxxxxxxxxxxx CLIENT_SECRET=yyyyyyyyyyyyyyyyyyyyy npm start
+```
+
+* Test it by opening your browser on http://127.0.0.1:3000/signin/github and accept the authorization request on GitHub
