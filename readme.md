@@ -6,7 +6,7 @@ This application is a demonstration prototype just to show how to use PassportJS
 * Download this prototype
 
 ```console
-$ git clone --single-branch -b Prototype-Level1 https://github.com/0xdbe/Prototype_PassportJS.git
+$ git clone https://github.com/0xdbe/PassportJS_PrototypeLevel1.git
 ```
 
 * Install required dependencies
